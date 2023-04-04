@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+
+        *{  
+            box-sizing: border-box;
+            
+        }
+        .container{
+            background-color: rgb(235, 181, 235);
+            border: 3px solid purple;
+            width: 900px;
+            /* auto in x and 30px in Y */
+            margin: 30px auto; 
+
+        }
+
+        .item{
+            background-color: rgb(242, 224, 224);
+            border: 3px solid grey;
+            padding: 12px 3px;
+            margin: 12px 3px;
+        }
+
+        #fruits{
+             float: right;
+             width: 48%;
+        }
+        #flowers{
+            float: right;
+             width: 48%;
+        }
+        #veggies{
+            clear: both;
+             width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+        <p id="fruitspara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, neque dolor! Labore eligendi magni repellendus quisquam illo vel hic ratione deserunt aliquam sunt omnis sint quos quae dicta nisi, distinctio laborum quod corporis expedita.</p>
+        </div>
+        <div id="flowers" class="item">
+            <h3>Flowers</h3>
+        <p id="flowerspara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, neque dolor! Labore eligendi magni repellendus quisquam illo vel hic ratione deserunt aliquam sunt omnis sint quos quae dicta nisi, distinctio laborum quod corporis expedita.</p>
+        </div>
+        <div id="veggies" class="item">
+            <h3>Veggies</h3>
+        <p id="veggiespara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, neque dolor! Labore eligendi magni repellendus quisquam illo vel hic ratione deserunt aliquam sunt omnis sint quos quae dicta nisi, distinctio laborum quod corporis expedita.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
