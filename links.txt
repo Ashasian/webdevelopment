@@ -1,0 +1,7 @@
+CSS docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+color pallet: https://colorhunt.co/palettes/
+emojis: https://emojipedia.org/
+icons: https://www.flaticon.com/
+Button generator : https://css3buttongenerator.com/
+
+shortcut to copy and paster : shift + option + downarrow

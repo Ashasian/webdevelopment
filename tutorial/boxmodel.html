@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{  
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(232, 217, 232);
+        }
+
+        .container{
+            background-color: rgb(185, 130, 185);
+            border: 3px solid purple;
+            border-radius: 23px;
+            padding: 34px 19px ;  /* padding: top right bottom left */
+            margin: 14px 19px ;
+            width: 533px;   
+            /* Giving border-box , the width given in the property width will not change for any change in the padding or margin  */
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>My header</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aperiam esse mollitia saepe sapiente, molestias dolores itaque. Quas, a quos? Voluptatem, assumenda ipsam?</p>
+    </div>
+    <div class="container">
+        <h3>My header</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aperiam esse mollitia saepe sapiente, molestias dolores itaque. Quas, a quos? Voluptatem, assumenda ipsam?</p>
+    </div>
+    <div class="container">
+        <h3>My header</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aperiam esse mollitia saepe sapiente, molestias dolores itaque. Quas, a quos? Voluptatem, assumenda ipsam?</p>
+    </div>
+
+</body>
+</html>

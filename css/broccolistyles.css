@@ -1,0 +1,30 @@
+/******************************************** TAG SELECTOR ******************************************/
+
+
+h1{
+
+    color: green;
+}
+
+img:hover{
+    background-color: cornsilk;
+}
+
+
+/******************************************** CLASS SELECTOR ******************************************/
+
+
+.broccoli{
+
+    background-color: orange;
+}
+
+.apple{
+
+    background-color: aquamarine;
+}
+
+.circular{
+
+    border-radius: 100%;
+}

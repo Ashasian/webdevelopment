@@ -1,0 +1,30 @@
+
+<!-- The only difference is that the inline style applies only to the tag to which it is applied, whereas this second code example affects all p tags on your html page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Inline, External and Internal CSS  -->
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="tutcss1.css">
+
+    <!-- Internal CSS  -->
+    <style>
+        p{
+            color: black;
+            background-color: orange;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Inline CSS will take precedence always
+    <p style="color: blue; background-color: aqua;">This tutorial will teach you CSS</p> -->
+    <p>This tutorial will teach you CSS</p>
+</body>
+</html>
